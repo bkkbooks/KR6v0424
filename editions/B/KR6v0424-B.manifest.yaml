@@ -1,0 +1,92 @@
+canonical_identifier: bkk:krp/KR6v0424/B/v1
+canonical_location: https://kanripo.org/bkk/KR6v0424/B/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 佛法金湯
+  identifiers:
+    krp: KR6v0424
+    cbeta: B28n0156
+    cbeta_old_id: B28n0156
+    authorityid: CA0006242
+    json_key: B0156
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/B/B28/B28n0156.xml
+    old_id: B28n0156
+  edition:
+    short: B
+assets:
+  parts:
+  - {seq: 0, filename: KR6v0424_000-B.yaml, hash: 'sha256:e16c2f93e7b5e0d515eafc4e498947c25ec07a39b198bdd3ca8c4338fb91b133'}
+  - {seq: 1, filename: KR6v0424_001-B.yaml, hash: 'sha256:270f355355d761a9e6ee264adb5be2cab50f7417ac46ab41762c0d72ea361f09'}
+  - {seq: 2, filename: KR6v0424_002-B.yaml, hash: 'sha256:06ccf7a3b6e224a06a0fb09ff449e03a03248879da8a6dd6a2711343e1cfa471'}
+  - {seq: 3, filename: KR6v0424_003-B.yaml, hash: 'sha256:3311a255f25e2165067a304e7a330225a47de7b5ed1f88017c1d7c79d85e8968'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6v0424_000-B.markers.yaml, hash: 'sha256:2b0653f77b712d5ef4828411d46a4ea51a6e07482a84cef93fdb8b07d0f13d46'}
+  - {seq: 1, role: markers, filename: assets/KR6v0424_001-B.markers.yaml, hash: 'sha256:85922a8d3da3e48f1143965a1fa7098812adf7251211224bde0a7c89d982b95b'}
+  - {seq: 2, role: markers, filename: assets/KR6v0424_002-B.markers.yaml, hash: 'sha256:156c34663bb22dcbd67429a14c2f0bfd1387a7d1889faf8be735ce4c2a2736b4'}
+  - {seq: 3, role: markers, filename: assets/KR6v0424_003-B.markers.yaml, hash: 'sha256:b92a9be22882b8b2646f3bbbcebd0664eb5d2fb8340925239e3a08cff370918d'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR6v0424_B_000-mulu-1
+    span:
+    - front
+    - 0
+    - 0
+  label: 序
+  type: mulu
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR6v0424_B_000-mulu-2
+    span:
+    - front
+    - 580
+    - 580
+  label: 駁斥
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0424_B_001-juan-start
+    span:
+    - body
+    - 0
+    - 9713
+  label: 佛法金湯上
+  type: juan
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0424_B_001-mulu-1
+    span:
+    - body
+    - 9713
+    - 9713
+  label: 問答
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6v0424_B_002-juan-start
+    span:
+    - body
+    - 0
+    - 6354
+  label: 佛法金湯中
+  type: juan
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR6v0424_B_003-juan-start
+    span:
+    - body
+    - 0
+    - 12566
+  label: 佛法金湯下
+  type: juan
+  level: 1
+hash: sha256:2b38d35fd0a8a19699b3a51c62cfaefb37e2cd3668471610b42f8f0e879c6f4c
